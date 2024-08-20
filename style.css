@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC; /* Bege claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    text-align: center;
+    color: #A52A2A; /* Marrom avermelhado */
+    margin: 0;
+    padding-left: 15px; /* Espaço entre o título e a imagem */
+}
+
+.header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.pizza-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pizza-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.pizza-info {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+.pizza-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #D2691E; /* Marrom claro */
+}
+
+.pizza-description {
+    font-size: 16px;
+    color: #555;
+    margin: 0 0 10px;
+}
+
+.pizza-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.pizza-action {
+    text-align: right;
+}
+
+.buy-button {
+    background-color: #FF6347; /* Tomate */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #E55342; /* Tomate escuro */
+}
